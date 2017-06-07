@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:weightSum="1"
+    android:background="@color/colorPrimary"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/surfaceView"
+        android:layout_weight="0.07"
+        android:background="@color/gray"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="-180dp"
+        android:src="@drawable/logo7"
+        />
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:id="@+id/surfaceView1"
+        android:background="@color/colorAccent"/>
+
+   <TextView
+        android:text="Faça seu login para utilizar nosso aplicativo!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageinicio"
+        android:textColor="#fff"
+        android:fontFamily="bold"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:id="@+id/editTextUsername"
+        android:hint="Usuario"
+        android:textColor="#fff"
+        android:alpha="0.7"
+        android:background="@color/colorPrimaryDark"
+        android:radius="5dp"
+        android:textColorHint="#FFFFFF"
+        android:paddingLeft="20dp"/>
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:id="@+id/editTextPassword"
+        android:hint="Senha"
+        android:textColor="#fff"
+        android:layout_marginLeft="70dp"
+        android:alpha="0.7"
+        android:inputType="textPassword"
+        android:background="@color/colorPrimaryDark"
+        android:textColorHint="#FFFFFF"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/buttonLogin"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:layout_marginLeft="70dp"
+        android:fontFamily="bold"
+        android:onClick="gerarNotificacao"
+         />
+
+    <TextView
+        android:text="©2017-Projeto Acadêmico- Todo conteúdo é fictício."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messagefim"
+        android:textColor="#fff"
+        android:fontFamily="bold"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="90dp"
+        />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
