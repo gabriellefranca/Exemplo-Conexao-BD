@@ -17,41 +17,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-    <SurfaceView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:id="@+id/surfaceView"
-        android:layout_weight="0.07"
-        android:background="@color/gray"/>
-
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:id="@+id/imageView3"
-        android:layout_marginTop="-180dp"
-        android:src="@drawable/logo7"
-        />
-
-    <SurfaceView
-        android:layout_width="match_parent"
-        android:layout_height="6dp"
-        android:id="@+id/surfaceView1"
-        android:background="@color/colorAccent"/>
-
-   <TextView
-        android:text="Faça seu login para utilizar nosso aplicativo!"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/messageinicio"
-        android:textColor="#fff"
-        android:fontFamily="bold"
-        android:textSize="12sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="90dp"
-        />
-
     <EditText
         android:layout_marginTop="40dp"
         android:layout_marginLeft="70dp"
@@ -91,22 +56,9 @@
         android:textColor="#fff"
         android:layout_marginLeft="70dp"
         android:fontFamily="bold"
-        android:onClick="gerarNotificacao"
          />
 
-    <TextView
-        android:text="©2017-Projeto Acadêmico- Todo conteúdo é fictício."
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/messagefim"
-        android:textColor="#fff"
-        android:fontFamily="bold"
-        android:textSize="12sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="130dp"
-        android:layout_marginLeft="90dp"
-        />
-
+    
 
         </LinearLayout>
     </ScrollView>
