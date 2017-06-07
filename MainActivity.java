@@ -78,7 +78,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private Toast toast;
-    private long lastBackPressTime = 0;
 
     }
 
